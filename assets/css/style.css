@@ -1,0 +1,310 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    max-width: 1280px;
+}
+section
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.conteiner
+{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+	padding-right: 15px;
+}
+.sec_header
+{
+    background-image: url(../img/876628-chinatown-cities-cityscapes-new-york-city-streets.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    min-height: 75vh;
+}
+.header
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    min-height: 50vh;
+}
+.first_line
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+.activelive a
+{
+    display: flex;
+    font-size: 30px;
+    text-decoration: none;
+}
+.activelive b
+{
+    color: #626fe4;
+}
+.activelive p 
+{
+    color: white;
+    margin: 0;
+}
+.links
+{
+    width: calc(100% / 12 * 6);
+}
+ul.first_line_links
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul.first_line_links li a
+{
+    text-decoration: none;
+    color: white;
+}
+.header_center
+{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.header_center h1
+{
+    font-size: 45px;
+    color: white;
+}
+.header_center p
+{
+    font-size: 22px;
+    color: white;
+}
+.header_center a
+{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    border: solid 10px #e84545;
+    background-color: #e84545;
+}
+.customize
+{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+ul.skills
+{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+}
+ul.skills li img
+{
+    width: 80px;
+    margin-bottom: 20px;
+    height: 80px;
+    object-fit: contain;
+}
+ul.skills li
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    text-align:center;
+    width:calc(100% / 12 * 4 - 105px);
+    list-style: none;
+    font-size: 14px;
+}
+.work
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.works
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.works b
+{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 45px;
+}
+.works p
+{
+    position: absolute;
+}
+.employee
+{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+    margin-left: -15px;
+    margin-right: -15px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1f2fd;
+}
+.worker
+{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.works b
+{
+    font-size: 22px;
+}
+.worker h6
+{
+    font-size: 13px;
+    color:#e84545;
+    margin: 0;
+    margin-top: 15px;
+}
+.worker p
+{
+    width: 270px;
+    font-size: 14px;
+    color: #6c7279;
+}
+.worker img
+{
+    object-fit: contain;
+    width: 270px;
+}
+.worker_links
+{
+    display: flex;
+    width: calc(100%/12*6);
+    justify-content: space-between;
+}
+.worker_links a
+{
+    border-radius: 3px;
+    border: solid 10px #ffffff;
+    background-color: #ffffff;
+}
+.worker_links img
+{
+    width: 20px;
+    height: 20px;
+}
+.sec_interection_desiner
+{
+    background-image: url(../img/susan_sims.png);
+    background-repeat: no-repeat;
+    background-size: calc(100%/12*6);
+    background-color: #53354a;
+    min-height: 336px;
+}
+.nav_interection_desiner
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 336px;
+}
+.interection_desiner
+{
+    width: calc(100%/12*5);
+    font-family: 'Open Sans', sans-serif;
+}
+.interection_desiner i
+{
+    font-size: 36px;
+}
+.interection_desiner p
+{
+    font-size: 13px;
+}
+.are_you_ready 
+{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.are_you_ready b
+{
+    font-size: 28px;
+}
+.are_you_ready a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    border: solid 10px #e84545;
+    background-color: #e84545;
+}
+.are_you_ready p
+{
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.sec_footer
+{
+    background-color: #3a3e64;
+}
+.footer
+{
+    display: flex;
+}
+.data_adress
+{
+    color:#808080;
+    width: calc(100%/12*4);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.data_adress_copyright
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100%/12*11);
+    justify-content: center;
+}
+.data_adress_copyright p
+{
+    margin: 0;
+    margin-right: 0.5em;
+}
+.data_adress_copyright span
+{
+    margin: 0;
+    margin-right: 0.5em;
+}
